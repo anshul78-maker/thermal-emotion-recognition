@@ -1,0 +1,6 @@
+protocol,network,accuracy_mean,accuracy_std,macro_f1,fold_accuracies,n_test_images,notes
+P1 image-level 5-fold,ConvNeXt-Tiny,0.957,0.010,0.957,0.938;0.968;0.958;0.962;0.960,2485,best model; saved as final_model.pt
+P1 image-level 5-fold,EfficientNet-B0,0.886,0.011,0.885,0.873;0.888;0.891;0.901;0.875,2485,
+P2 burst-grouped 5-fold,EfficientNet-B0,0.158,0.050,0.127,0.243;0.171;0.145;0.140;0.091,2485,44 recording bursts (60 s gap)
+P3 unseen session (train 2023 sessions; test 2024-03-03),EfficientNet-B0,0.349,,0.323,0.349,455,
+P3 unseen session (train 2023 sessions; test 2024-03-03),ConvNeXt-Tiny,0.363,,0.339,0.363,455,
