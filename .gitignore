@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+results*/
+!results/
+run*/
+*.pt
+*.pth
+data/
+raw/
+*.zip
+*.rar
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
